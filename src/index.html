@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doctor</title>
+  </head>
+  <style>
+    #btn-submit:hover{
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Find a doctor!</h1>
+      <label for="name">Search by illness:</label>
+      <input id="input-illness" type="text">
+      <label for="language">Select a language:</label>
+      <select id="input-language">
+        <option value="english">English</option>
+        <option value="french">French</option>
+        <option value="spanish">Spanish</option>
+      </select>
+      <button class="btn-success" id="btn-submit" type="button">Submit</button>
+      <div id="errors"></div>
+      <ul id="all-doctors"></ul>
+    </div>
+  </body>
+</html>
